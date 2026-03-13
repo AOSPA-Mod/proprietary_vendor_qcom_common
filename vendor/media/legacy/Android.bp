@@ -6,6 +6,7 @@ soong_namespace {
     imports: [
         "hardware/qcom/display",
         "vendor/qcom/common/vendor/dsprpcd",
+        "vendor/qcom/opensource/display",
     ],
 }
 
@@ -537,15 +538,6 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "32",
     prefer: true,
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "c2_manifest_vendor.xml",
-    owner: "qcom",
-    src: "proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
     soc_specific: true,
 }
 

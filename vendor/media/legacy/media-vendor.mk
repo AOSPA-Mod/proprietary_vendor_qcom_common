@@ -26,5 +26,4 @@ PRODUCT_PACKAGES += \
     libfastcrc \
     libstreamparser \
     libvideoutils \
-    c2_manifest_vendor.xml \
     vendor.qti.media.c2@1.0-service
