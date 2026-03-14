@@ -7,6 +7,8 @@ soong_namespace {
         "hardware/qcom/display",
         "hardware/qcom/display/gralloc",
         "vendor/qcom/common/vendor/media/6.1",
+        "vendor/qcom/opensource/display",
+"vendor/qcom/opensource/commonsys-intf/display",
     ],
 }
 
